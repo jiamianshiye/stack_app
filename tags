@@ -1,0 +1,67 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -fPIC $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMMON_H	common.h	2;"	d
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = cp -f -R$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = cp -f$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -std=gnu++11 -Wall -W -fPIC $(DEFINES)$/;"	m
+ClearStack	mystack.cpp	/^Status ClearStack(SqStack &s)$/;"	f
+DEFINES	Makefile	/^DEFINES       = $/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = ..\/..\/..\/Qt\/5.13.0\/gcc_64\/mkspecs\/features\/spec_pre.prf \\$/;"	m
+DISTDIR	Makefile	/^DISTDIR = \/home\/cdp\/code\/qt_project\/stack_app\/.tmp\/stack_app1.0.0$/;"	m
+DISTNAME	Makefile	/^DISTNAME      = stack_app1.0.0$/;"	m
+DestyStack	mystack.cpp	/^Status DestyStack(SqStack &s)$/;"	f
+EQ	Makefile	/^EQ            = =$/;"	m
+GetTop	mystack.cpp	/^Status GetTop(SqStack s, SElemType &e)$/;"	f
+INCPATH	Makefile	/^INCPATH       = -I. -I..\/..\/..\/Qt\/5.13.0\/gcc_64\/mkspecs\/linux-g++$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = cp -f -R$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+InitStack	mystack.cpp	/^Status InitStack(SqStack &s)$/;"	f
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)    $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MAKEFILE	Makefile	/^MAKEFILE      = Makefile$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MYSTACK_H	mystack.h	2;"	d
+OBJECTS	Makefile	/^OBJECTS       = main.o$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+Pop	mystack.cpp	/^Status Pop(SqStack &s, SElemType &e)$/;"	f
+Push	mystack.cpp	/^Status Push(SqStack &s, SElemType e)$/;"	f
+QINSTALL	Makefile	/^QINSTALL      = \/home\/cdp\/Qt\/5.13.0\/gcc_64\/bin\/qmake -install qinstall$/;"	m
+QINSTALL_PROGRAM	Makefile	/^QINSTALL_PROGRAM = \/home\/cdp\/Qt\/5.13.0\/gcc_64\/bin\/qmake -install qinstall -exe$/;"	m
+QMAKE	Makefile	/^QMAKE         = \/home\/cdp\/Qt\/5.13.0\/gcc_64\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = stack_app$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SElemType	mystack.h	9;"	d
+SOURCES	Makefile	/^SOURCES       = main.cpp $/;"	m
+STACKINCREMENT	mystack.h	7;"	d
+STACK_INIT_SIZE	mystack.h	6;"	d
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SqStack	mystack.h	/^}SqStack;$/;"	t	typeref:struct:__anon1
+StackEmpty	mystack.cpp	/^Status StackEmpty(SqStack s)$/;"	f
+StackLength	mystack.cpp	/^Status StackLength(SqStack s)$/;"	f
+StackTraverse	mystack.cpp	/^Status StackTraverse(SqStack s, Status (*visit)())$/;"	f
+Status	mystack.h	/^typedef     int     Status;$/;"	t
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = stack_app$/;"	m
+base	mystack.h	/^    SElemType   *base;$/;"	m	struct:__anon1
+main	main.cpp	/^int main()$/;"	f
+stackSize	mystack.h	/^    int         stackSize;$/;"	m	struct:__anon1
+top	mystack.h	/^    SElemType   *top;$/;"	m	struct:__anon1
